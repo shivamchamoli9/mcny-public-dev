@@ -1,0 +1,165 @@
+@media only screen and (max-width: 991px) {
+  header .navbar-nav {
+    align-items: flex-start !important;
+    -ms-flex-align: start !important;
+  }
+
+  header .nav-item::after {
+    content: none;
+  }
+
+  header .navbar-brand {
+    max-width: 150px;
+  }
+
+  header .nav-item {
+    position: relative;
+    margin-bottom: 15px;
+  }
+
+  header .navbar-nav .phoneNumber {
+    margin-left: 0px;
+  }
+
+  header .navbar-nav .phoneNumber img {
+    top: 0px;
+  }
+
+  header .droupDown {
+    position: static;
+    visibility: visible;
+    display: none;
+    padding-left: 40px;
+    width: 190px;
+  }
+
+  header .nav-item:hover .droupDown {
+    display: block;
+  }
+
+  header .navbar-nav {
+    margin-bottom: 0px;
+  }
+
+  header .navbar {
+    align-items: center;
+  }
+
+  header .navbar-nav .nav-link {
+    padding: 0px 0px !important;
+  }
+
+  .patientInquiryForm .formWrap {
+    padding-left: 0px;
+  }
+
+  .patientInquiryForm {
+    padding-top: 166px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .patientInquiryForm .innerWrap {
+    padding: 20px 15px 23px 15px;
+  }
+
+  .patientInquiryForm .form-group {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .patientInquiryForm .formWrap label {
+    margin-bottom: 15px;
+  }
+
+  .patientInquiryForm .form-control {
+    padding: 7px 10px;
+    padding-right: 33px;
+  }
+
+  .patientInquiryForm .selectWrap img {
+    right: 10px;
+  }
+}
+
+/********************************** ADMIN CSSS *********************************/
+
+@media only screen and (max-width: 1300px) {
+  .right-content-Wrap .form-control {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .filterWrap {
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+
+  .filterWrap .input-group {
+    max-width: 50%;
+    margin-right: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
+    flex: 0 0 50%;
+    margin-bottom: 10px;
+  }
+
+  .filterWrap .submitBtn {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .sidebar {
+    margin-left: -220px;
+  }
+
+  .sidebar.hide {
+    margin-left: 0px;
+  }
+
+  .filterWrap {
+    justify-content: center !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .right-content-Wrap .table {
+    width: 700px;
+  }
+
+  .right-content-Wrap {
+    padding: 30px 15px 30px 15px;
+  }
+
+  .filterWrap .input-group {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .adminHeader .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
+  .loginRegisterModal .formWrap {
+    padding-bottom: 0px;
+  }
+  .loginRegisterModal .leftSection p {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 567px) {
+  .main-content-wrapper {
+    padding-top: 109px;
+  }
+
+  .adminHeader .ml-auto {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: right;
+  }
+  .changePasswordWrap .submitBtn {
+    max-width: 190px;
+  }
+}
